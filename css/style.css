@@ -149,6 +149,51 @@ h3{
 }
 
 
+#usedHero{
+	width: 100%;
+	height: 100vh;
+	background: url("../img/Switch.png") center;
+	background-size: cover;
+	position: relative;
+}
+
+
+.latest{
+	background-color: #444944;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.latest_text{
+	background-color: #4D6D4D;
+	width: 90%;
+	height: auto;
+	overflow: auto;
+	margin: 0 5%;
+	padding: 18px 0;
+	border-style: solid;
+	border-color: #9F9F9F;
+	border-width: 10px;
+}
+
+.retro{
+	background-color: #444944;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.retro_text{
+	background-color: #4D6D4D;
+	width: 90%;
+	height: auto;
+	overflow: auto;
+	margin: 0 5%;
+	padding: 18px 0;
+	border-style: solid;
+	border-color: #9F9F9F;
+	border-width: 10px;
+}
+
 @media (max-width:800px){
 	.left{
 		width: 100%;
