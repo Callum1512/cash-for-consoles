@@ -219,6 +219,12 @@ ul .latest_bullets{
 	text-align: left;
 }
 
+.form{
+	background-color: #444944;
+	text-align: center;
+	padding: 30px 0;
+}
+
 
 @media (max-width:800px){
 	.left{
