@@ -194,6 +194,32 @@ h3{
 	border-width: 10px;
 }
 
+ul .latest_bullets{
+	list-style: none;
+}
+
+.latest_bullets li:before{
+  content: "\2022";
+  color: #ffffff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.latest_bullets{
+	margin: 0 10% 40px;
+	font-size: 20px;
+	list-style: none; 
+	color:#ffffff;
+	text-align: left;
+}
+
+.textLeft{
+	text-align: left;
+}
+
+
 @media (max-width:800px){
 	.left{
 		width: 100%;
