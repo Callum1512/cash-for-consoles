@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html>
 <head>
@@ -56,16 +58,16 @@
 			</div>
 		</div>
 	
-		<div class="form">
+		<div class="form" >
 			
 			<p>To purchase any of our consoles or for more information please fill in the form below and we aim to answer all enquiries within 24 hours.</p>
 			
-			<form> 
+			<form class="buyingForm" action="buying.php" method="post"> 
 			<input type="text" name="fname" placeholder="First Name" required>
-			<input type="text" name="lname" placeholder="Surname" required>
+			<input type="text" name="sname" placeholder="Surname" required>
 			<input type="text" name="phoneNum" placeholder="Phone Number">
-			<input type="email" name="email" placeholder="Email Address">
-			<input type="button" value="Submit">
+			<input type="email" name="email" placeholder="Email Address" required>
+			<input type="button" value="Submit" name="submit">
 			</form>
 			
 		</div>
@@ -94,6 +96,10 @@
 			</div>
 			
 		</footer>
+	
+
+
+ 
 	
 	
 </body>
